@@ -1,0 +1,377 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(mobile.css);
+
+
+main{
+    background-image: url('../../assets/background/background.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+   
+    height: 80vh;
+}
+
+.main-texto{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0 0 0 10%;
+    
+}
+main h1{
+    width: 40%;
+    color: #ffffff;
+    font-family: 'roboto';
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+main p{
+    width: 40%;
+    font-family: 'roboto';
+    font-weight: normal;
+    font-size: 22px;
+    padding: 2% 0 0 0;
+    color: #ffffff;
+}
+
+
+.beneficios{
+    height: 50vh;
+    margin: 5% 0 10% 0
+}
+
+.beneficios-box{
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    margin: 0% 10% 0% 10%; /* Ajuste para o espaçamento */
+}
+
+.beneficios-item{
+   
+    width: 200px;
+    height: 200px;
+
+    flex: 0 0 23%; /* Define que cada item ocupará aproximadamente 23% da largura */
+    box-sizing: border-box; /* Garante que padding e border não afetem a largura total */
+    margin: 0 0% 1% 0%; /* Espaçamento entre os itens */
+    
+    background-color: #f4f4f4; /* Cor de fundo para visualização */
+    padding: auto; /* Padding interno */
+    border-radius: 8px;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px rgba(232, 232, 232, 0.966); /* Sombra */
+
+    font-family: 'roboto';
+    font-style: normal;
+    
+}
+
+.beneficios-item img {
+    max-width: 100%; /* A imagem não ultrapassa a largura do item */
+    height: auto; /* Mantém a proporção da imagem */
+    padding: 0% 0 3% 0;
+}
+
+.beneficios-item:hover{
+    box-shadow: 5px 5px 15px rgba(247, 0, 0, 0.267); /* Sombra */
+}
+
+
+.solucao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #C30617;
+    padding: 5% 10% 5% 10%;
+}
+
+
+.solucao-texto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: left;
+}
+.solucao h2{
+   
+    font-family: 'roboto';
+    font-size: 32px ;
+    font-weight: bolder;
+    color: #ffffff;
+    
+    width: 60%;
+   
+}
+
+.solucao p{
+    width: 80%;
+    font-family: 'roboto';
+    font-size: 22px ;
+    font-weight: lighter;
+    color: #ffffff;
+
+    padding: 3% 0 0 0;
+    
+}
+
+
+.solucao-img{
+    width: 600px;
+    height: 400px;
+}
+
+
+
+
+
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+
+iframe {
+    width: 100vw;
+    height: 70vh;
+    margin: 0 0 0 0;
+}
+
+
+
+
+.next-evento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/background/next.png');
+    background-size: cover; 
+    height: 90vh;
+    color: #ffffff;
+}
+
+.next-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 70%;
+    height: 70%;
+    background-color: #C30617;
+    
+    color: #ffffff;
+    font-family: 'roboto';
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.438); /* Sombra */
+   
+    border-radius: 15px;
+}
+
+.evento-details{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.next-container h2{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.next-container p{
+    width: 60%;
+    text-align: center;
+    margin: 3% 0 0 0;
+}
+
+.countdown{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 5%;
+
+}
+
+.square{
+    display: flex;
+    width: 200px;
+    height: 100px ;
+    background-color: #D9D9D9;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #ff0000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.438); /* Sombra */
+}
+
+
+.mobile{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+.mobile-texto{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 8% 0 0 10%;
+
+    font-weight: bold;
+    font-family: 'roboto';
+    font-size: 40px;
+}
+
+.mobile-texto h2{
+    width: 80%;
+    padding: 0 0 5% 0;
+}
+
+.btn-mobile{
+    width: 60%;
+    height: 5%;
+    background-color: #ff0015;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.logo2{
+    width: 50%;
+    height: 10%;
+}
+
+
+.nossa-equipe{
+    width: 100%;
+
+}
+
+.nossa-equipe-intro{
+    align-items: center;
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: normal;
+    margin: 5% 10% 0 10%;
+    text-align: center;
+    padding: 0 5% 0 5%;
+
+}
+
+.equipe-titulo{
+    display: flex;
+    height: 20vh;
+    background-color: #C30617;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto';
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.equipe-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+    margin: 5% 10% 5% 10%;
+
+
+}
+
+.integrante-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #C30617;
+
+    font-family: 'roboto';
+    color: #ffffff;
+
+    width: 35%;
+    height: 60%;
+    margin: 0 2% 0 2%;
+
+}
+
+.integrante-item:hover {
+    box-shadow: 1px 1px #000000,
+                2px 2px #000000, 
+                3px 3px #000000,
+                4px 4px #000000,
+                5px 5px #000000,
+                6px 6px #000000,
+                2px 2px #000000;
+    transform: translateX(-3px);
+  }
+
+.integrante-nome{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 10% 0 0 0;
+}
+
+
+.integrante-item-sobre{
+    height: 250px;
+    text-align: center;
+    padding: 5% 5% 0 5%;
+    font-size: 14px;
+}
+
+
+.foto-perfil{
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+}
+
+.social-media{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+.icone-img-social-media{
+    width: 30px;
+    height: 30px;
+}

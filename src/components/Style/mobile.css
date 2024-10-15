@@ -1,0 +1,215 @@
+/* Responsivo */
+
+/* Estilos para telas pequenas - smartphones (max-width: 768px) */
+@media (max-width: 768px) {
+    main {
+        background-size: cover;
+        height: 50vh;
+    }
+
+    .main-texto h1{
+        width: 80%;
+        font-size: 24px;
+    }
+
+    .main-texto p{
+        width: 80%;
+        font-size: 18px;
+    }
+
+  
+   
+
+    .beneficios {
+        height: auto;
+        margin: 10% 0;
+    }
+
+    .beneficios-box {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .beneficios-item {
+        width: 100px;
+        height: 100px;
+            
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        align-items: center;
+        justify-content: center;
+    
+        font-size: 12px;
+     
+    }
+
+    .beneficios-item img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .solucao {
+        flex-direction: column;
+        padding: 10% 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .solucao-box-img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .solucao h2, .solucao p {
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .solucao-texto p{
+        font-size: 18px;
+    }
+
+    .solucao-img {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iframe {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .video{
+
+    }
+
+    .next-evento {
+        height: auto;
+        padding: 5% 0;
+    }
+
+    .next-container {
+        width: 60%;
+        padding: 5%;
+        text-align: center;
+    }
+    .next-container p {
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+    }
+
+    
+    .countdown {
+        flex-direction: column;
+    }
+
+    .square {
+        width: 150px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-texto {
+        width: 90%;
+        padding: 5% 5%;
+        text-align: center;
+    }
+
+    .mobile-texto h2 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .btn-mobile {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .nossa-equipe-intro {
+        font-size: 16px;
+        padding: 0 2%;
+        margin: 10% 0 0 0;
+    }
+
+    .equipe-box {
+        flex-direction: column;
+    }
+
+    .integrante-item {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .foto-perfil {
+        width: 100px;
+        height: 100px;
+    }
+
+    .integrante-nome {
+        font-size: 18px;
+    }
+
+    .integrante-item-sobre {
+        font-size: 12px;
+    }
+
+    .social-media {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    .icone-img-social-media {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* Estilos para tablets - telas intermediárias (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .beneficios-item {
+        width: 45%;
+        margin: 3% 0;
+    }
+
+    .solucao {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .solucao h2, .solucao p {
+        text-align: center;
+    }
+
+    .solucao-img {
+        width: 80%;
+        height: auto;
+        margin-top: 3%;
+    }
+
+    .mobile-texto {
+        width: 80%;
+    }
+
+    .btn-mobile {
+        width: 60%;
+    }
+
+    .integrante-item {
+        width: 48%;
+    }
+
+    .social-media {
+        width: 70%;
+    }
+}
